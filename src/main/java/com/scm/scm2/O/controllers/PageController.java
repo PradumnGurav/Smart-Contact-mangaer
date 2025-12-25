@@ -21,4 +21,10 @@ public String aboutPage(){
   System.out.println("About Page Handler");
   return "about";
 }
+// services pages
+@RequestMapping("/services")
+public String services(){
+  System.out.println("Services Page loading");
+  return "services";
+}
 }
