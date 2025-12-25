@@ -15,5 +15,10 @@ public class PageController {
         System.out.println("Home page handler");
       return "home";
     }
-
+// about page
+@RequestMapping("/about")
+public String aboutPage(){
+  System.out.println("About Page Handler");
+  return "about";
+}
 }
